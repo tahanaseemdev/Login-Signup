@@ -49,7 +49,7 @@ This project is a complete login and signup module with database integration. It
    ```env
    DB_URI=your_mongodb_connection_string
    EMAIL_ADDRESS=your_email_address
-   PASSWORD=your_email_password
+   PASSWORD=your_email_password # Note: This is not your Gmail account password but the app passkey generated through your Gmail account.
    SESSION_SECRET=your_secret_key
    ```
 
